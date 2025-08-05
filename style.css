@@ -26,12 +26,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+      flex-direction: column;
 }
 #page3{
     height: 100%;
     width: 100%;
     background-color: rgb(33, 187, 238);
     display: flex;
+  
     justify-content: center;
     align-items: center;
 }
@@ -39,4 +41,10 @@ body{
     height: 300px;
     width: 300px;
     background-color: crimson;
+}
+h1{
+    position: relative;
+    padding: 30px;
+    
+
 }
